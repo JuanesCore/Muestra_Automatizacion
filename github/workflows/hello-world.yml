@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]    # Automáticamente al hacer push a main
   workflow_dispatch:       # Manualmente desde la pestaña Actions de GitHub
-
+  
 jobs:
   hello:
     runs-on: ubuntu-latest   # Se ejecuta en una máquina virtual Linux
